@@ -1,4 +1,64 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(196, 217, 235);
+}
+.main-container{
+  height: 120px;
+  width: 500px;
+  background-color: rgb(78, 120, 245);
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  padding: 10px;
+}
+.search-field,.submit-btn{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.search-field{
+  font-size: 1.3rem;
+  color: darkblue;
+  outline: none;
+}
+.submit-btn{
+  background-color: orange;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  box-shadow: 0px 0px 1px #111;
+}
+.main-card{
+  background-color: rgb(236, 236, 236);
+  height: 340px;
+  width: 300px;
+  box-shadow: 1px 2px 1px #111;
+  padding: 40px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.main-title{
+  font-size: 1rem;
+  color: orangered;
+  text-transform: uppercase;
+}
+.main-ing{
+  font-size: 1rem;
+  color: purple;
+  font-style: italic;
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +70,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
