@@ -88,7 +88,9 @@ class App extends Component {
                 className="search-field"
                 onChange={this.changeHandler}
               />
-              <button className="submit-btn">SEARCH COCKTAILS</button>
+              <div className="search-btn">
+                Please enter a cocktail drink ID to search
+              </div>
             </div>
           </form>
         </div>
